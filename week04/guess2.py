@@ -4,7 +4,8 @@
 # to prompt until the user gets the correct number
 # week 4 lab 2
 
-numberToGuess = 78
+import random
+numberToGuess = random.randint(0,100)
 
 guess = int(input ("Please guess the number : "))
 
@@ -12,7 +13,7 @@ while guess != numberToGuess:
     print ("Wrong")
     if (guess > numberToGuess):
         print ("Too high")
-    if (guess < numberToGuess):
+    else:
         print ("Too low")
     guess = int(input ("Please guess again: "))
 
