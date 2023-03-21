@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # week06-functions.py.py
 # Author: Linda Grealish
 # Program that allows a user to create new students and to view students
@@ -54,3 +55,6 @@ while (choice != 'q'):
         print("\n\nplease select either a,v or q")
 
     choice = displayMenu()
+=======
+
+>>>>>>> 7cc6159ad2e0805d6cb533866f0e100d63dbe023
